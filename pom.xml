@@ -1,6 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.khaleesi.carfield</groupId>
+  <groupId>com.github.codegerm</groupId>
   <artifactId>spark-job-server-client</artifactId>
   <version>1.0.0</version>
   <name>spark-job-server-client</name>
@@ -89,4 +89,31 @@
 		</plugin>
 	</plugins>
   </build>
+  
+  
+  	<distributionManagement>
+		<snapshotRepository>
+			<id>ossrh</id>
+			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+		</snapshotRepository>
+
+		<repository>
+			<id>ossrh</id>
+			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+		</repository>
+	</distributionManagement>
+
+	<repositories>
+
+		<repository>
+			<id>ossrh</id>
+			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+		</repository>
+
+		<repository>
+			<id>jobserver</id>
+			<url>https://dl.bintray.com/spark-jobserver/maven</url>
+		</repository>
+	</repositories>
+  
 </project>
