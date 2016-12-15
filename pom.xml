@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.codegerm</groupId>
 	<artifactId>spark-job-server-client</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 
 	<name>${project.groupId}:${project.artifactId}</name>
 	<description>Java Lib for Spark Job Server Rest API</description>
